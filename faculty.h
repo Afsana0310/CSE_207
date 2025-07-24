@@ -1,13 +1,15 @@
 #ifndef FACULTY_H
 #define FACULTY_H
 
-enum designation
+enum designation{
+    Senior_Lecturer,
+};
 
-Senior_Lecturer
+
 
 typedef struct faculty{
     char *name;
     char *id;
-}faculty
+}faculty;
 
 #endif
